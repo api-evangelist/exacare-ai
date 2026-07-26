@@ -1,0 +1,12 @@
+generated: '2026-07-19'
+method: searched
+probe: true
+source: https://trust.exacare.com/
+url: https://trust.exacare.com/
+certifications:
+- HIPAA
+evidence:
+- source: https://trust.exacare.com/
+  keywords:
+  - hipaa
+  - trust center

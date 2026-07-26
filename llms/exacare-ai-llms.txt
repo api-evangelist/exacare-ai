@@ -1,0 +1,26 @@
+# ExaCare AI
+
+> ExaCare AI is a post-acute and senior care operations platform that applies AI to admissions, referral management, prior authorization, and reimbursement workflows across skilled nursing, home health, hospice, and assisted living providers. It reads inbound referral and admissions packets, extracts clinical and payer data, and automates the back-office work of accepting and reimbursing patients. ExaCare is a private company backed by Insight Partners. It ships a customer web application and a Vanta-hosted Trust Center but publishes no public developer API at this time.
+
+## Company
+- [Website](https://www.exacare.com/): ExaCare AI marketing site and product overview.
+- [About](https://www.exacare.com/about): Company background and team.
+- [Careers](https://www.exacare.com/careers): Open roles.
+- [Contact / Book a demo](https://www.exacare.com/contact): Sales and demo requests.
+
+## Application
+- [Sign in](https://app.exacare.com/): Customer web application login.
+
+## Docs & Support
+- [Support Center](https://exacare-knowledge-base.help.usepylon.com/): Knowledge base for ExaCare customers.
+- [Blog](https://www.exacare.com/resources/blog): Company blog and resources.
+
+## Trust & Security
+- [Trust Center](https://trust.exacare.com/): Vanta-hosted trust center; HIPAA compliance published.
+
+## Legal
+- [Privacy Policy](https://www.exacare.com/privacy-policy)
+- [Terms of Service](https://www.exacare.com/terms-of-service)
+
+## Notes
+- No public developer API, OpenAPI specification, SDK, or developer portal was found during enrichment (probed 2026-07-19). This profile is identity + security posture only.

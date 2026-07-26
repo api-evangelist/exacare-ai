@@ -1,8 +1,12 @@
 aid: exacare-ai
 name: ExaCare AI
-description: 'ExaCare AI is a company surfaced as a portfolio company of insight-partners and added to
-  the API Evangelist network as a stub for enrichment. Sector: healthcare. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'ExaCare AI is a post-acute and senior care operations platform that applies AI to admissions,
+  referral management, prior authorization, and reimbursement workflows across skilled nursing, home health,
+  hospice, and assisted living providers. It reads inbound referral and admissions packets, extracts clinical
+  and payer data, and automates the back-office work of accepting and reimbursing patients, with integrations
+  into referral platforms, hospital systems, and EHRs. ExaCare is a private company backed by Insight Partners;
+  it ships a customer web application and a Vanta-hosted Trust Center (HIPAA) but publishes no public developer
+  API at this time.'
 url: https://raw.githubusercontent.com/api-evangelist/exacare-ai/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,12 +14,32 @@ x-backed-by:
 - insight-partners
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
+image: https://exacare-logos.s3.amazonaws.com/ExaCare_Logo_Secondary_Dark_RGB.svg
 tags:
 - Company
 - Healthcare
+- Post-Acute Care
+- Senior Care
+- Skilled Nursing
+- Home Health
+- Hospice
+- EHR
+- Artificial Intelligence
+- Revenue Cycle
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +49,28 @@ maintainers:
 common:
 - type: Website
   url: https://www.exacare.com/
+- type: About
+  url: https://www.exacare.com/about
+- type: Login
+  url: https://app.exacare.com/
+- type: Support
+  url: https://exacare-knowledge-base.help.usepylon.com/
+- type: Blog
+  url: https://www.exacare.com/resources/blog
+- type: PrivacyPolicy
+  url: https://www.exacare.com/privacy-policy
+- type: TermsOfService
+  url: https://www.exacare.com/terms-of-service
+- type: TrustCenter
+  url: security/exacare-ai-trust-center.yml
+- type: Compliance
+  url: https://trust.exacare.com/
+- type: DomainSecurity
+  url: security/exacare-ai-domain-security.yml
+- type: LLMsTxt
+  url: llms/exacare-ai-llms.txt
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
